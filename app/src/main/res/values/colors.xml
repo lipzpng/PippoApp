@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_light">#F4F3F3</color>
+    <color name="white_opaco">#DFDFDF</color>
+    <color name="gray">#A19F9F</color>
+
+    <color name="green">#47dd40</color>
+    <color name="green_opaco">#83e6c9</color>
+    <color name="green_light">#03fb8b</color>
+    <color name="green_medium">#1dd783</color>
+    <color name="green_dark">#2E9567</color>
+    <color name="green_config">#2a2615</color>
+
+    <color name="yellow_dark">#95932E</color>
+    <color name="yellow">#D7CE1D</color>
+    <color name="yellow_light">#FBD203</color>
+
+    <color name="blue_dark">#2E7895</color>
+    <color name="blue">#1D96D7</color>
+    <color name="blue_light">#03ACFB</color>
+
+    <color name="purple_dark">#712E95</color>
+    <color name="purple">#8A1DD7</color>
+    <color name="purple_light">#A403FB</color>
+
+    <color name="orange_dark">#95572E</color>
+    <color name="orange">#D77D1D</color>
+    <color name="orange_light">#FB6E03</color>
+
+    <color name="brown_dark">#774225</color>
+    <color name="brown">#854E13</color>
+    <color name="brown_light">#9F5013</color>
+
+    <color name="red_dark">#952E2E</color>
+    <color name="red">#D71D1D</color>
+    <color name="red_light">#FB0303</color>
+</resources>

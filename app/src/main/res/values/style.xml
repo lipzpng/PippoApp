@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ContainerComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/container_components</item>
+        <item name="android:layout_margin">15dp</item>
+    </style>
+
+    <style name="ContainerComponentsVermelho">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/container_components_vermelho</item>
+        <item name="android:layout_margin">15dp</item>
+    </style>
+
+    <style name="ContainerComponentsRedondo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/container_components_redondo</item>
+        <item name="android:layout_margin">15dp</item>
+    </style>
+
+    <style name="ContainerComponentsRedondoSmall">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/container_components_redondo_small</item>
+        <item name="android:layout_margin">15dp</item>
+    </style>
+
+    <style name="ContainerComponentsInfo">
+        <item name="android:background">@drawable/container_components_info</item>
+        <item name="android:layout_margin">15dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">13dp</item>
+        <item name="android:elevation">30dp</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="Amarelo">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/cor_amarelo</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+    <style name="Azul">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/cor_azul</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+    <style name="Branco">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/cor_branco</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+    <style name="Laranja">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/cor_laranja</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+    <style name="Marrom">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/cor_marrom</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+    <style name="Preto">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/cor_preto</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+    <style name="Roxo">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/cor_roxo</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+    <style name="Verde">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/cor_verde</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+    <style name="Vermelho">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/cor_vermelho</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+    <style name="Contorno">
+        <item name="android:layout_width">52dp</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:background">@drawable/cor_preto</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+</resources>

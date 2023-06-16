@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Pippo App</string>
+    <string name="pippo">Pippo</string>
+
+    <string name="agua">água</string>
+    <string name="num1" tools:ignore="ExtraTranslation">50%</string>
+
+    <string name="temperatura">temperatura</string>
+    <string name="num2" tools:ignore="ExtraTranslation">9ºC</string>
+
+    <string name="clima">clima</string>
+    <string name="num3" tools:ignore="ExtraTranslation">🌧</string>
+
+    <string name="botao1" tools:ignore="ExtraTranslation">Botao de config</string>
+    <string name="botao2" tools:ignore="ExtraTranslation">Botao de main</string>
+    <string name="botao3" tools:ignore="ExtraTranslation">Botao de info</string>
+
+    <string name="image">Imagem do Pippo</string>
+
+    <string name="botaoBlu">Botao do Bluetooth</string>
+
+    <string name="descricao">\n   O pippo tem como objetivo tornar o seu cuidado com plantas mais prazeroso e divertido. O pippo possui em seu hardware um microcontrolador Esp32 e um display LCD 3.5 polegadas de 480x320. Seu vaso é feito de impressão 3D, sinta-se livre para escolher a planta que preferir.</string>
+</resources>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_light"
+    tools:context=".FormConfig">
+
+    <ImageView
+        android:id="@+id/configImage"
+        android:layout_width="600dp"
+        android:layout_height="350dp"
+        android:radius="30dp"
+        android:src="@drawable/configback"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/image"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/pippoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:elevation="20dp"
+        android:fontFamily="@font/heineken"
+        android:text="@string/pippo"
+        android:textColor="@color/green_dark"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageBlu"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@null"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/ic_blu"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/botaoBlu" />
+
+    <View
+        android:id="@+id/containerComponentsRedondo"
+        style="@style/ContainerComponentsRedondo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:elevation="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/pippoLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/containerComponentsInfo"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:elevation="30dp"
+        android:src="@drawable/logo"
+        app:layout_constraintTop_toTopOf="@+id/containerComponentsRedondo"
+        app:layout_constraintBottom_toBottomOf="@+id/containerComponentsRedondo"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentsRedondo"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentsRedondo"
+        android:contentDescription="@string/image" />
+
+    <View
+        android:id="@+id/containerComponentsInfo"
+        style="@style/ContainerComponentsInfo"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:elevation="2dp"
+        app:layout_constraintTop_toBottomOf="@+id/containerComponentsRedondo"
+        app:layout_constraintBottom_toTopOf="@+id/containerComponentsBottom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textConfig"
+        android:text="Escolha uma cor"
+        android:fontFamily="@font/heineken"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:elevation="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/containerComponentsInfo"
+        app:layout_constraintStart_toStartOf="@id/containerComponentsInfo"
+        app:layout_constraintEnd_toEndOf="@id/containerComponentsInfo"
+        android:layout_margin="15dp" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonVermelho"
+        style="@style/Vermelho"
+        android:elevation="50dp"
+        app:layout_constraintStart_toStartOf="@+id/containerComponentsInfo"
+        app:layout_constraintTop_toBottomOf="@+id/textConfig"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonMarrom"
+        style="@style/Marrom"
+        android:elevation="50dp"
+        app:layout_constraintStart_toEndOf="@id/buttonVermelho"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLaranja"
+        app:layout_constraintTop_toBottomOf="@+id/textConfig"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLaranja"
+        style="@style/Laranja"
+        android:elevation="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentsInfo"
+        app:layout_constraintTop_toBottomOf="@+id/textConfig"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonAmarelo"
+        style="@style/Amarelo"
+        android:elevation="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRoxo"
+        app:layout_constraintStart_toStartOf="@id/containerComponentsInfo"
+        app:layout_constraintTop_toBottomOf="@+id/buttonVermelho"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonVerde"
+        style="@style/Verde"
+        android:elevation="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPreto"
+        app:layout_constraintEnd_toStartOf="@+id/buttonAzul"
+        app:layout_constraintStart_toEndOf="@id/buttonAmarelo"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMarrom"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonAzul"
+        style="@style/Azul"
+        android:elevation="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBranco"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentsInfo"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLaranja"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonRoxo"
+        style="@style/Roxo"
+        android:elevation="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/containerComponentsInfo"
+        app:layout_constraintStart_toStartOf="@id/containerComponentsInfo"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonPreto"
+        style="@style/Preto"
+        android:elevation="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonBranco"
+        app:layout_constraintStart_toEndOf="@id/buttonRoxo"
+        app:layout_constraintBottom_toBottomOf="@+id/containerComponentsInfo"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonBranco"
+        style="@style/Branco"
+        android:elevation="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponentsInfo"
+        app:layout_constraintBottom_toBottomOf="@+id/containerComponentsInfo"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+
+    <View
+        android:id="@+id/containerComponentsBottom"
+        style="@style/ContainerComponents"
+        android:layout_marginBottom="11dp"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/ButtonConfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:background="@null"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toTopOf="@id/containerComponentsBottom"
+        app:layout_constraintBottom_toBottomOf="@id/containerComponentsBottom"
+        app:layout_constraintEnd_toEndOf="@id/containerComponentsBottom"
+        app:srcCompat="@drawable/ic_config"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/botao1" />
+
+    <ImageButton
+        android:id="@+id/ButtonFlor"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toTopOf="@id/containerComponentsBottom"
+        app:layout_constraintBottom_toBottomOf="@id/containerComponentsBottom"
+        app:layout_constraintEnd_toEndOf="@id/containerComponentsBottom"
+        app:layout_constraintStart_toStartOf="@id/containerComponentsBottom"
+        app:srcCompat="@drawable/ic_flor"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/botao2" />
+
+    <ImageButton
+        android:id="@+id/ButtonInfo"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:background="@null"
+        android:elevation="20dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toTopOf="@id/containerComponentsBottom"
+        app:layout_constraintBottom_toBottomOf="@id/containerComponentsBottom"
+        app:layout_constraintStart_toStartOf="@id/containerComponentsBottom"
+        app:srcCompat="@drawable/ic_info"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/botao3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
